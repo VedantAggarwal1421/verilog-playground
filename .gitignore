@@ -3,3 +3,5 @@
 *.vcd
 *.out
 *.o
+*.json
+*.fs
