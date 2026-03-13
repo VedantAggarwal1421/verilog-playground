@@ -11,7 +11,7 @@ gen:
 load:
 	@read -p "Program FPGA? [y/N]: " ans;\
 	if [ "$$ans" = "y" ] || [ "$$ans" = "Y" ]; then\
-		openFPGALoader -b tangnano20k build/pack.fs
+		openFPGALoader -b tangnano20k build/pack.fs; \
 	else \
 		echo "Skipping FPGA Programming."; \
 	fi
