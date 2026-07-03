@@ -5,3 +5,5 @@
 *.o
 *.json
 *.fs
+UART
+uart/obj_dir
